@@ -21,13 +21,13 @@ class Main {
       Catch(Exception e) {
         e.getStackTrace();
         }
-//new code added for hdfc-300 userstory --Mahender
-//reads all data from input.txt
-   sourcefile.read(array);
-    //write all data to newFile
-     destFile.write(array);
-    System.out.println("The input.txt file is copied to new file"); 
-         }
+//new code changes done by vivek for the userstory hdfc-301
+public static void sampleMethod(int a, int b) throws ArithmeticException{
+System.out.ptintln("Hello, this is sample method");
+int c = a/b ; // int c = 4/2 which gets calculated as 2
+System.out.println("c:"+c); // c: 2
+}
+       }
  }
 
 
