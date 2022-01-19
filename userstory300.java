@@ -27,5 +27,7 @@ class Main {
     //write all data to newFile
      destFile.write(array);
     System.out.println("The input.txt file is copied to new file"); 
-}
-}
+         }
+ }
+
+
