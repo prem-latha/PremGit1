@@ -20,6 +20,14 @@ class Main {
       }
       Catch(Exception e) {
         e.getStackTrace();
+        }
+//new code added for hdfc-300 userstory --Mahender
+//reads all data from input.txt
+   sourcefile.read(array);
+    //write all data to newFile
+     destFile.write(array);
+    System.out.println("The input.txt file is copied to new file"); 
          }
  }
-}
+
+
